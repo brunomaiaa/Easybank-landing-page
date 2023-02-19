@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
 /*
 ! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,8 +515,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.p-8 {
+.p-8{
   padding: 2rem;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .attribution {
